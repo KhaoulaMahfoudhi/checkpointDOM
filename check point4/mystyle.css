@@ -1,0 +1,225 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+/* Style the section 1 */
+.bareinitial {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  background: hsla(0, 0%, 100%, 0.904);
+  transition: box-shadow 0.25s ease 0s;
+  display: block;
+}
+
+.bare-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 0 0;
+  color: grey;
+  zoom: 1;
+  padding: 0 10px;
+  margin: 0 auto;
+  width: 1000px;
+  height: 100px;
+  
+}
+.bar-item img {
+  margin-top: 15px;
+}
+.bar-item h2{
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1em;
+  cursor: pointer;
+  margin-right: 5px;
+  color: black;
+}
+.bar-item h1{
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    
+  }
+
+/* Style the section 2 */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-top: 150px;
+  margin-left: 230px;
+  margin-right: 100px;
+  width: 800px;
+  height: 350px;
+  background-color: black;
+  border-radius: 5px;
+}
+.container-item {
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  width: 800px;
+  height: 100px;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.container-item img {
+  width: 110px;
+  height: 80px;
+  margin-top: 15px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+  margin-left: 30px;
+  border: solid 3px  goldenrod;
+  cursor: pointer;
+}
+.container-item span {
+  margin-top: 20px;
+  margin-right: 3px;
+  margin-left: 5px;
+  width: 180px;
+  height: 30px;
+  font-weight: 550;
+  text-align: justify;
+  color: white;
+}
+#Netbook{
+  margin-top: 20px;
+  margin-right: 55px;
+  margin-left: 34px;
+  width: 200px;
+  height: 30px;
+  font-weight: 550;
+  text-align: justify;
+  color: white;  
+}
+#Portable{
+    margin-top: 20px;
+    margin-right: 9px;
+    margin-left:7px;
+    width: 180px;
+    height: 30px;
+    font-weight: 550;
+    text-align: justify;
+    color: white;  
+  }
+/* Style buttons */
+.btn {
+    
+    border: none; /* Remove borders */
+    color:white;
+    padding: 5px 5px; /* Some padding */
+    font-size: 10px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-right: 30px;
+    margin-left: 35px;
+  }
+  .min{
+    border: solid 2px goldenrod;
+    padding: 5px 5px; /* Some padding */
+    font-size: 15px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-right: 30px;
+    margin-left: 35px;
+  }
+  .add{
+    border:solid 2px goldenrod; 
+    padding: 5px 5px; /* Some padding */
+    font-size: 15px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-right: 30px;
+    margin-left: 35px;
+  }
+
+  
+
+  .qte{
+    border: solid 3px  goldenrod;
+    width: 30px;
+    height: 30px;
+    padding: 3px 3px; /* Some padding */
+    font-size: 10px; /* Set a font size */
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    color: black;
+    background-color: thistle;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.price{
+    
+    width: 80px;
+    height: 60px;
+    padding: 3px 3px; /* Some padding */
+    font-size: 10px; /* Set a font size */
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+ 
+  .red{
+    color: red;
+  }
+  
+
+
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: goldenrod;
+  }
+.container-item span:hover {
+  color:goldenrod;
+  cursor: pointer;
+}
+.container-item img:hover {
+  box-shadow: 0px 8px 16px 0px goldenrod;
+}
+
+.totale{
+    width: 800px;
+    margin-left: 230px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    line-height: 2em;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:goldenrod;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+/*Style Footer*/
+.footer{
+    text-align: center;
+    width: auto;
+}
+.footer span{
+    margin-top: 1px;
+    font-weight: bold;
+    line-height: 2em;
+    color: DodgerBlue;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+.container-item h1{
+    color: white;
+}
